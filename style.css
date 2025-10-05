@@ -1,0 +1,19 @@
+/* Custom CSS (extra styling outside Tailwind) */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Sticky navbar shadow */
+.sticky-nav {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Extra hover animation for product cards */
+.card-hover:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
